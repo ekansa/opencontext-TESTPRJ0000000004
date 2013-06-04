@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<arch:spatialUnit xmlns:arch="http://ochre.lib.uchicago.edu/schema/SpatialUnit/SpatialUnit.xsd" xmlns:oc="http://opencontext.org/schema/space_schema_v1.xsd" xmlns:gml="http://www.opengis.net/gml" xmlns:dc="http://purl.org/dc/elements/1.1/" UUID="TESTSPA0000006222" ownedBy="TESTPRJ0000000004">
+<arch:spatialUnit xmlns:arch="http://ochre.lib.uchicago.edu/schema/SpatialUnit/SpatialUnit.xsd" xmlns:oc="http://opencontext.org/schema/space_schema_v1.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml" UUID="TESTSPA0000006222" ownedBy="TESTPRJ0000000004">
   <arch:name>
     <arch:string>Bone Ref# 2853</arch:string>
   </arch:name>
   <oc:item_class>
     <oc:name>Animal Bone</oc:name>
-    <oc:iconURI>http://www.opencontext.org/database/ui_images/med_oc_icons/animal_bone_50x50.jpg</oc:iconURI>
+    <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_50x50.jpg</oc:iconURI>
   </oc:item_class>
   <arch:observations>
     <arch:observation obsNumber="1">
+      <oc:obs_metadata>
+        <oc:source>OpenContext</oc:source>
+      </oc:obs_metadata>
       <arch:properties>
         <arch:property>
-          <arch:variableID>TESTVAR0000000327</arch:variableID>
-          <arch:valueID>TESTTXT0000002783</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019249">TESTPRO0000019249</oc:propid>
-          <oc:var_label type="nominal">Retrieval Method</oc:var_label>
-          <oc:show_val>Floatation</oc:show_val>
+          <arch:variableID>TESTVAR0000000332</arch:variableID>
+          <arch:valueID>TESTTXT0000003331</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000022545">TESTPRO0000022545</oc:propid>
+          <oc:var_label type="nominal">Taxon</oc:var_label>
+          <oc:show_val>Ovis sp.</oc:show_val>
+          <oc:linkedData>
+            <oc:relationLink localType="variable" localID="TESTVAR0000000332" href="http://purl.org/NET/biol/ns#term_hasTaxonomy">
+              <oc:vocabulary href="http://purl.org/NET/biol/ns#">Biological Taxonomy Vocabulary</oc:vocabulary>
+              <oc:label>Has Biological Taxonomy</oc:label>
+              <oc:targetLink localType="property" localID="TESTPRO0000022545" localURI="http://opencontext.org/properties/TESTPRO0000022545" href="http://eol.org/pages/39510">
+                <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
+                <oc:label>Ovis</oc:label>
+              </oc:targetLink>
+              <oc:targetLink localType="property" localID="TESTPRO0000022545" localURI="http://opencontext.org/properties/TESTPRO0000022545" href="http://eol.org/pages/39510">
+                <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
+                <oc:label>Ovis</oc:label>
+              </oc:targetLink>
+            </oc:relationLink>
+          </oc:linkedData>
         </arch:property>
         <arch:property>
-          <arch:variableID>TESTVAR0000000346</arch:variableID>
-          <arch:valueID>TESTTXT0000002789</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019261">TESTPRO0000019261</oc:propid>
-          <oc:var_label type="nominal">Size</oc:var_label>
-          <oc:show_val>&lt;2 cm</oc:show_val>
-        </arch:property>
-        <arch:property>
-          <arch:variableID>TESTVAR0000000323</arch:variableID>
-          <arch:valueID>TESTTXT0000002795</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019274">TESTPRO0000019274</oc:propid>
-          <oc:var_label type="nominal">Year</oc:var_label>
-          <oc:show_val>PB 95</oc:show_val>
-        </arch:property>
-        <arch:property>
-          <arch:variableID>TESTVAR0000000341</arch:variableID>
-          <arch:valueID>TESTTXT0000002800</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019282">TESTPRO0000019282</oc:propid>
-          <oc:var_label type="nominal">Sex</oc:var_label>
-          <oc:show_val>?</oc:show_val>
-        </arch:property>
-        <arch:property>
-          <arch:variableID>TESTVAR0000000333</arch:variableID>
-          <arch:valueID>TESTTXT0000002805</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019290">TESTPRO0000019290</oc:propid>
-          <oc:var_label type="nominal">Species</oc:var_label>
-          <oc:show_val>Unknown</oc:show_val>
+          <arch:variableID>TESTVAR0000000337</arch:variableID>
+          <arch:valueID>TESTTXT0000002904</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019579">TESTPRO0000019579</oc:propid>
+          <oc:var_label type="nominal">Element</oc:var_label>
+          <oc:show_val>Carpal Bone</oc:show_val>
+          <oc:linkedData>
+            <oc:relationLink localType="variable" localID="TESTVAR0000000337" href="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0079">
+              <oc:vocabulary href="http://opencontext.org/vocabularies/open-context-zooarch/">Open Context Zooarchaeology Annotations</oc:vocabulary>
+              <oc:label>Has anatomical identification</oc:label>
+              <oc:targetLink localType="property" localID="TESTPRO0000019579" localURI="http://opencontext.org/properties/TESTPRO0000019579" href="http://purl.obolibrary.org/obo/UBERON_0001435">
+                <oc:vocabulary href="http://uberon.org">UBERON (Uber Anatomy Ontology)</oc:vocabulary>
+                <oc:label>carpal bone</oc:label>
+              </oc:targetLink>
+            </oc:relationLink>
+          </oc:linkedData>
         </arch:property>
         <arch:property>
           <arch:variableID>TESTVAR0000000342</arch:variableID>
@@ -53,39 +59,11 @@
           <oc:show_val>NA</oc:show_val>
         </arch:property>
         <arch:property>
-          <arch:variableID>TESTVAR0000000343</arch:variableID>
-          <arch:valueID>TESTTXT0000002836</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019357">TESTPRO0000019357</oc:propid>
-          <oc:var_label type="alphanumeric">Age Data</oc:var_label>
-          <oc:show_val>Juvenile</oc:show_val>
-        </arch:property>
-        <arch:property>
-          <arch:variableID>TESTVAR0000000337</arch:variableID>
-          <arch:valueID>TESTTXT0000002904</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019579">TESTPRO0000019579</oc:propid>
-          <oc:var_label type="nominal">Element</oc:var_label>
-          <oc:show_val>Carpal Bone</oc:show_val>
-        </arch:property>
-        <arch:property>
-          <arch:variableID>TESTVAR0000000330</arch:variableID>
-          <arch:valueID>TESTTXT0000003038</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000020012">TESTPRO0000020012</oc:propid>
-          <oc:var_label type="nominal">Mesh Size</oc:var_label>
-          <oc:show_val>&lt; 5 mm</oc:show_val>
-        </arch:property>
-        <arch:property>
-          <arch:variableID>TESTVAR0000000332</arch:variableID>
-          <arch:valueID>TESTTXT0000003331</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000022545">TESTPRO0000022545</oc:propid>
-          <oc:var_label type="nominal">Taxon</oc:var_label>
-          <oc:show_val>Ovis sp.</oc:show_val>
-        <oc:linkedData><oc:relationLink localType="variable" localID="TESTVAR0000000332" href="http://purl.org/NET/biol/ns#term_hasTaxonomy"><oc:vocabulary href="http://purl.org/NET/biol/ns#">Biological Taxonomy Vocabulary</oc:vocabulary><oc:label>Has Biological Taxonomy</oc:label><oc:targetLink localType="property" localID="TESTPRO0000022545" localURI="http://opencontext.org/properties/TESTPRO0000022545" href="http://eol.org/pages/39510"><oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary><oc:label>Ovis</oc:label></oc:targetLink></oc:relationLink></oc:linkedData></arch:property>
-        <arch:property>
-          <arch:variableID>TESTVAR0000000334</arch:variableID>
-          <arch:valueID>TESTTXT0000003332</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000022546">TESTPRO0000022546</oc:propid>
-          <oc:var_label type="alphanumeric">Species Comment</oc:var_label>
-          <oc:show_val>Ovis</oc:show_val>
+          <arch:variableID>TESTVAR0000000344</arch:variableID>
+          <arch:valueID>TESTTXT0000003523</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000023670">TESTPRO0000023670</oc:propid>
+          <oc:var_label type="alphanumeric">Comments</oc:var_label>
+          <oc:show_val>This bone is more lamb like</oc:show_val>
         </arch:property>
         <arch:property>
           <arch:variableID>TESTVAR0000000324</arch:variableID>
@@ -95,17 +73,84 @@
           <oc:show_val>2853</oc:show_val>
         </arch:property>
         <arch:property>
-          <arch:variableID>TESTVAR0000000344</arch:variableID>
-          <arch:valueID>TESTTXT0000003523</arch:valueID>
-          <oc:propid href="http://opencontext.org/properties/TESTPRO0000023670">TESTPRO0000023670</oc:propid>
-          <oc:var_label type="alphanumeric">Comments</oc:var_label>
-          <oc:show_val>This bone is more lamb like</oc:show_val>
+          <arch:variableID>TESTVAR0000000334</arch:variableID>
+          <arch:valueID>TESTTXT0000003332</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000022546">TESTPRO0000022546</oc:propid>
+          <oc:var_label type="alphanumeric">Species Comment</oc:var_label>
+          <oc:show_val>Ovis</oc:show_val>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>TESTVAR0000000330</arch:variableID>
+          <arch:valueID>TESTTXT0000003038</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000020012">TESTPRO0000020012</oc:propid>
+          <oc:var_label type="nominal">Mesh Size</oc:var_label>
+          <oc:show_val>&lt; 5 mm</oc:show_val>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>TESTVAR0000000343</arch:variableID>
+          <arch:valueID>TESTTXT0000002836</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019357">TESTPRO0000019357</oc:propid>
+          <oc:var_label type="alphanumeric">Age Data</oc:var_label>
+          <oc:show_val>Juvenile</oc:show_val>
+          <oc:linkedData>
+            <oc:relationLink localType="variable" localID="TESTVAR0000000343" href="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0077">
+              <oc:vocabulary href="http://opencontext.org/vocabularies/open-context-zooarch/">Open Context Zooarchaeology Annotations</oc:vocabulary>
+              <oc:label>Has fusion character</oc:label>
+            </oc:relationLink>
+          </oc:linkedData>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>TESTVAR0000000333</arch:variableID>
+          <arch:valueID>TESTTXT0000002805</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019290">TESTPRO0000019290</oc:propid>
+          <oc:var_label type="nominal">Species</oc:var_label>
+          <oc:show_val>Unknown</oc:show_val>
+          <oc:linkedData>
+            <oc:relationLink localType="variable" localID="TESTVAR0000000333" href="http://purl.org/NET/biol/ns#term_hasTaxonomy">
+              <oc:vocabulary href="http://purl.org/NET/biol/ns#">Biological Taxonomy Vocabulary</oc:vocabulary>
+              <oc:label>Has Biological Taxonomy</oc:label>
+            </oc:relationLink>
+          </oc:linkedData>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>TESTVAR0000000341</arch:variableID>
+          <arch:valueID>TESTTXT0000002800</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019282">TESTPRO0000019282</oc:propid>
+          <oc:var_label type="nominal">Sex</oc:var_label>
+          <oc:show_val>?</oc:show_val>
+          <oc:linkedData>
+            <oc:relationLink localType="variable" localID="TESTVAR0000000341" href="http://opencontext.org/vocabularies/open-context-zooarch/zoo-0078">
+              <oc:vocabulary href="http://opencontext.org/vocabularies/open-context-zooarch/">Open Context Zooarchaeology Annotations</oc:vocabulary>
+              <oc:label>Has physiological sex determination</oc:label>
+            </oc:relationLink>
+          </oc:linkedData>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>TESTVAR0000000323</arch:variableID>
+          <arch:valueID>TESTTXT0000002795</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019274">TESTPRO0000019274</oc:propid>
+          <oc:var_label type="nominal">Year</oc:var_label>
+          <oc:show_val>PB 95</oc:show_val>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>TESTVAR0000000346</arch:variableID>
+          <arch:valueID>TESTTXT0000002789</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019261">TESTPRO0000019261</oc:propid>
+          <oc:var_label type="nominal">Size</oc:var_label>
+          <oc:show_val>&lt;2 cm</oc:show_val>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>TESTVAR0000000327</arch:variableID>
+          <arch:valueID>TESTTXT0000002783</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/TESTPRO0000019249">TESTPRO0000019249</oc:propid>
+          <oc:var_label type="nominal">Retrieval Method</oc:var_label>
+          <oc:show_val>Floatation</oc:show_val>
         </arch:property>
       </arch:properties>
       <arch:links>
         <arch:docID type="person" info="Observer">TESTPER0000003264</arch:docID>
         <oc:person_links>
-          <oc:link href="http://opencontext.org/persons/TESTPER0000003264" cite="creator">
+          <oc:link href="http://opencontext.org/persons/TESTPER0000003264" cite="contributor">
             <oc:name>Denise Carruthers</oc:name>
             <oc:id>TESTPER0000003264</oc:id>
             <oc:relation>Observer</oc:relation>
@@ -122,16 +167,16 @@
         <oc:level>5</oc:level>
         <oc:item_class>
           <oc:name>Region</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/region_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/region_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
       <oc:parent href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-        <oc:name>Pinarbasi</oc:name>
+        <oc:name>Pınarbaşı</oc:name>
         <oc:id>ROOTPRJ0000000006</oc:id>
         <oc:level>4</oc:level>
         <oc:item_class>
           <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/site_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
       <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003434">
@@ -140,92 +185,7 @@
         <oc:level>3</oc:level>
         <oc:item_class>
           <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003445">
-        <oc:name>Stratum 5</oc:name>
-        <oc:id>TESTSPA0000003445</oc:id>
-        <oc:level>2</oc:level>
-        <oc:item_class>
-          <oc:name>Stratum</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/stratum_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003444">
-        <oc:name>Context BBH</oc:name>
-        <oc:id>TESTSPA0000003444</oc:id>
-        <oc:level>1</oc:level>
-        <oc:item_class>
-          <oc:name>Excav. Unit</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/locus_lot_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-    </oc:tree>
-    <oc:tree id="TESTSPT0000000016">
-      <oc:parent href="http://opencontext.org/subjects/1_Global_Spatial">
-        <oc:name>Turkey</oc:name>
-        <oc:id>1_Global_Spatial</oc:id>
-        <oc:level>4</oc:level>
-        <oc:item_class>
-          <oc:name>Region</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/region_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-        <oc:name>Pinarbasi</oc:name>
-        <oc:id>ROOTPRJ0000000006</oc:id>
-        <oc:level>3</oc:level>
-        <oc:item_class>
-          <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003434">
-        <oc:name>Site B</oc:name>
-        <oc:id>TESTSPA0000003434</oc:id>
-        <oc:level>2</oc:level>
-        <oc:item_class>
-          <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003444">
-        <oc:name>Context BBH</oc:name>
-        <oc:id>TESTSPA0000003444</oc:id>
-        <oc:level>1</oc:level>
-        <oc:item_class>
-          <oc:name>Excav. Unit</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/locus_lot_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-    </oc:tree>
-    <oc:tree id="TESTSPT0000000016">
-      <oc:parent href="http://opencontext.org/subjects/1_Global_Spatial">
-        <oc:name>Turkey</oc:name>
-        <oc:id>1_Global_Spatial</oc:id>
-        <oc:level>5</oc:level>
-        <oc:item_class>
-          <oc:name>Region</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/region_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-        <oc:name>Pinarbasi</oc:name>
-        <oc:id>ROOTPRJ0000000006</oc:id>
-        <oc:level>4</oc:level>
-        <oc:item_class>
-          <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003434">
-        <oc:name>Site B</oc:name>
-        <oc:id>TESTSPA0000003434</oc:id>
-        <oc:level>3</oc:level>
-        <oc:item_class>
-          <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/site_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
       <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003442">
@@ -234,7 +194,7 @@
         <oc:level>2</oc:level>
         <oc:item_class>
           <oc:name>Stratum</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/stratum_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/stratum_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
       <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003444">
@@ -243,72 +203,16 @@
         <oc:level>1</oc:level>
         <oc:item_class>
           <oc:name>Excav. Unit</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/locus_lot_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-    </oc:tree>
-    <oc:tree id="TESTSPT0000000016">
-      <oc:parent href="http://opencontext.org/subjects/1_Global_Spatial">
-        <oc:name>Turkey</oc:name>
-        <oc:id>1_Global_Spatial</oc:id>
-        <oc:level>5</oc:level>
-        <oc:item_class>
-          <oc:name>Region</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/region_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-        <oc:name>Pinarbasi</oc:name>
-        <oc:id>ROOTPRJ0000000006</oc:id>
-        <oc:level>4</oc:level>
-        <oc:item_class>
-          <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003426">
-        <oc:name>Site A</oc:name>
-        <oc:id>TESTSPA0000003426</oc:id>
-        <oc:level>3</oc:level>
-        <oc:item_class>
-          <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003442">
-        <oc:name>Stratum 6</oc:name>
-        <oc:id>TESTSPA0000003442</oc:id>
-        <oc:level>2</oc:level>
-        <oc:item_class>
-          <oc:name>Stratum</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/stratum_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:parent>
-      <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003444">
-        <oc:name>Context BBH</oc:name>
-        <oc:id>TESTSPA0000003444</oc:id>
-        <oc:level>1</oc:level>
-        <oc:item_class>
-          <oc:name>Excav. Unit</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/locus_lot_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/locus_lot_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
     </oc:tree>
   </oc:context>
   <oc:metadata>
     <dc:title>Pınarbaşı 1994: Animal Bones: Bone Ref# 2853 (Animal Bone)</dc:title>
-    <dc:date>2006-03-25</dc:date>
-    <dc:coverage>Near East</dc:coverage>
-    <dc:creator>Denise Carruthers</dc:creator>
-    <dc:format>Text/HTML</dc:format>
-    <dc:language>eng</dc:language>
     <dc:publisher>Open Context</dc:publisher>
-    <dc:rights>Creative Commons Attribution 2.5</dc:rights>
-    <dc:subject>archaeology</dc:subject>
-    <dc:subject>Epi-Paleolithic</dc:subject>
-    <dc:subject>Neolithic</dc:subject>
-    <dc:subject>Near East</dc:subject>
-    <dc:subject>Anatolia</dc:subject>
+    <dc:date>2013-03-05</dc:date>
+    <dc:subject>archaeology, Epi-Paleolithic, Neolithic, Near East, Anatolia</dc:subject>
     <dc:subject>Turkey</dc:subject>
     <dc:subject>zooarchaeology</dc:subject>
     <dc:subject>Pinarbasi</dc:subject>
@@ -316,50 +220,43 @@
     <dc:subject>agriculture</dc:subject>
     <dc:subject>foraging</dc:subject>
     <dc:subject>hunting</dc:subject>
-    <dc:contributor>Denise Carruthers</dc:contributor>
+    <dc:contributor href="http://opencontext.org/persons/TESTPER0000003264">Denise Carruthers</dc:contributor>
+    <dc:creator href="http://opencontext.org/persons/TESTPER0000003264">Denise Carruthers</dc:creator>
     <dc:identifier>http://opencontext.org/subjects/TESTSPA0000006222</dc:identifier>
-    <oc:project_name>Pınarbaşı 1994: Animal Bones</oc:project_name>
-    <oc:primary_xsl>default/default_spatial.xsl</oc:primary_xsl>
-    <oc:pub_date>2006-03-25T00:00:00-07:00</oc:pub_date>
-    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=P%26%23305%3Bnarba%26%23351%3B%26%23305%3B%201994%3A%20Animal%20Bones%3A%20Bone%20Ref%23%202853%20%28Animal%20Bone%29&amp;rft.date=2006-03-25&amp;rft.creator=Denise%20Carruthers&amp;rft.contributor=Denise%20Carruthers&amp;rft.subject=archaeology&amp;rft.subject=Epi-Paleolithic&amp;rft.subject=Neolithic&amp;rft.subject=Near%20East&amp;rft.subject=Anatolia&amp;rft.subject=Turkey&amp;rft.subject=zooarchaeology&amp;rft.subject=Pinarbasi&amp;rft.subject=9th%20millennium&amp;rft.subject=agriculture&amp;rft.subject=foraging&amp;rft.subject=hunting&amp;rft.format=Text%2FHTML&amp;rft.coverage=Near%20East&amp;rft.language=eng&amp;rft.publisher=&amp;rft.source=Open%20Context&amp;rft.rights=Creative%20Commons%20Attribution%202.5&amp;rft_id=http%3A%2F%2Fwww.opencontext.org%2Fsubjects%2FTESTSPA0000006222</oc:coins>
-    <oc:no_props>This study includes zooarchaeological information only. Other content, including details of Pınarbaşı contexts, is not yet available. </oc:no_props>
-    <oc:copyright_lic>
-      <oc:lic_name>Creative Commons Attribution</oc:lic_name>
-      <oc:lic_vers>3.0</oc:lic_vers>
-      <oc:lic_URI>http://creativecommons.org/licenses/by/3.0/</oc:lic_URI>
-      <oc:lic_icon_URI>http://i.creativecommons.org/l/by/3.0/88x31.png</oc:lic_icon_URI>
-    </oc:copyright_lic>
+    <oc:project_name href="http://opencontext.org/projects/TESTPRJ0000000004">Pınarbaşı 1994: Animal Bones</oc:project_name>
+    <oc:pub_date>2013-03-05T00:00:00-07:00</oc:pub_date>
+    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=P%C4%B1narba%C5%9F%C4%B1+1994%3A+Animal+Bones%3A+Bone+Ref%23+2853+%28Animal+Bone%29&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=archaeology%2C+Epi-Paleolithic%2C+Neolithic%2C+Near+East%2C+Anatolia&amp;rft.subject=Turkey&amp;rft.subject=zooarchaeology&amp;rft.subject=Pinarbasi&amp;rft.subject=9th+millennium&amp;rft.subject=agriculture&amp;rft.subject=foraging&amp;rft.subject=hunting&amp;rft.contributor=Denise+Carruthers&amp;rft.creator=Denise+Carruthers&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fsubjects%2FTESTSPA0000006222</oc:coins>
     <oc:geo_reference>
-      <oc:geo_lat>37.455</oc:geo_lat>
-      <oc:geo_long>33.0475</oc:geo_long>
-      <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-        <oc:source_name>Pinarbasi</oc:source_name>
-        <oc:source_id>ROOTPRJ0000000006</oc:source_id>
+      <oc:geo_lat>37.49432</oc:geo_lat>
+      <oc:geo_long>33.018551</oc:geo_long>
+      <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/TESTSPA0000003434">
+        <oc:source_name>Site B</oc:source_name>
+        <oc:source_id>TESTSPA0000003434</oc:source_id>
       </oc:metasource>
     </oc:geo_reference>
   </oc:metadata>
   <oc:social_usage>
-    <oc:last_updated>2008-11-01T23:42:31Z</oc:last_updated>
+    <oc:last_updated>2013-05-24T07:30:57-07:00</oc:last_updated>
     <oc:item_views>
-      <oc:count>5</oc:count>
-      <oc:view_time>August 1, 2008, 8:52AM</oc:view_time>
+      <oc:count>1</oc:count>
+      <oc:view_time>2013/05/24 07:30:57</oc:view_time>
     </oc:item_views>
     <oc:user_tags>
       <oc:tag type="chronological" status="public">
-        <oc:name>(8,500 BCE - 7,000 BCE)</oc:name>
+        <oc:name>(6,700 BCE - 6,000 BCE)</oc:name>
         <oc:chrono isDuration="true">
-          <oc:time_start>-8500</oc:time_start>
-          <oc:time_finish>-7000</oc:time_finish>
-          <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-            <oc:source_name>Pinarbasi</oc:source_name>
-            <oc:source_id>ROOTPRJ0000000006</oc:source_id>
+          <oc:time_start>-6700</oc:time_start>
+          <oc:time_finish>-6000</oc:time_finish>
+          <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/TESTSPA0000003434">
+            <oc:source_name>Site B</oc:source_name>
+            <oc:source_id>TESTSPA0000003434</oc:source_id>
           </oc:metasource>
         </oc:chrono>
         <oc:tag_creator id="oc">
           <oc:creator_name>Open Context Editors</oc:creator_name>
           <oc:set_label>Default set</oc:set_label>
           <oc:set_id>Default set</oc:set_id>
-          <oc:set_date>2008-08-11T21:45:49Z</oc:set_date>
+          <oc:set_date>2013-03-05T17:49:52-07:00</oc:set_date>
         </oc:tag_creator>
       </oc:tag>
     </oc:user_tags>

@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<arch:spatialUnit xmlns:arch="http://ochre.lib.uchicago.edu/schema/SpatialUnit/SpatialUnit.xsd" xmlns:oc="http://opencontext.org/schema/space_schema_v1.xsd" xmlns:gml="http://www.opengis.net/gml" xmlns:dc="http://purl.org/dc/elements/1.1/" UUID="TESTSPA0000003500" ownedBy="TESTPRJ0000000004">
+<arch:spatialUnit xmlns:arch="http://ochre.lib.uchicago.edu/schema/SpatialUnit/SpatialUnit.xsd" xmlns:oc="http://opencontext.org/schema/space_schema_v1.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml" UUID="TESTSPA0000003500" ownedBy="TESTPRJ0000000004">
   <arch:name>
     <arch:string>Context BAK</arch:string>
   </arch:name>
   <oc:item_class>
     <oc:name>Excav. Unit</oc:name>
-    <oc:iconURI>http://www.opencontext.org/database/ui_images/med_oc_icons/locus_lot_50x50.jpg</oc:iconURI>
+    <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/locus_lot_50x50.jpg</oc:iconURI>
   </oc:item_class>
   <arch:observations>
     <arch:observation obsNumber="1">
+      <oc:obs_metadata>
+        <oc:source>manual</oc:source>
+      </oc:obs_metadata>
       <arch:links>
         <arch:docID type="person" info="Observer">TESTPER0000003264</arch:docID>
         <oc:person_links>
-          <oc:link href="http://opencontext.org/persons/TESTPER0000003264" cite="creator">
+          <oc:link href="http://opencontext.org/persons/TESTPER0000003264" cite="contributor">
             <oc:name>Denise Carruthers</oc:name>
             <oc:id>TESTPER0000003264</oc:id>
             <oc:relation>Observer</oc:relation>
           </oc:link>
         </oc:person_links>
       </arch:links>
+      <arch:notes>
+        <arch:note>
+          <arch:string type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">This project includes only zooarchaeological data. For additional description of sites, excavation strata and other contextual information, please refer to other publications.</div>
+          </arch:string>
+        </arch:note>
+      </arch:notes>
     </arch:observation>
   </arch:observations>
   <oc:context>
@@ -29,16 +39,16 @@
         <oc:level>4</oc:level>
         <oc:item_class>
           <oc:name>Region</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/region_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/region_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
       <oc:parent href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-        <oc:name>Pinarbasi</oc:name>
+        <oc:name>Pınarbaşı</oc:name>
         <oc:id>ROOTPRJ0000000006</oc:id>
         <oc:level>3</oc:level>
         <oc:item_class>
           <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/site_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
       <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003434">
@@ -47,7 +57,7 @@
         <oc:level>2</oc:level>
         <oc:item_class>
           <oc:name>Site</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/site_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/site_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
       <oc:parent href="http://opencontext.org/subjects/TESTSPA0000003501">
@@ -56,7 +66,7 @@
         <oc:level>1</oc:level>
         <oc:item_class>
           <oc:name>Stratum</oc:name>
-          <oc:iconURI>http://www.opencontext.org/database/ui_images/oc_icons/stratum_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/stratum_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:parent>
     </oc:tree>
@@ -68,7 +78,7 @@
         <oc:id>TESTSPA0000004080</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004081">
@@ -76,7 +86,7 @@
         <oc:id>TESTSPA0000004081</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004082">
@@ -84,7 +94,7 @@
         <oc:id>TESTSPA0000004082</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004083">
@@ -92,7 +102,7 @@
         <oc:id>TESTSPA0000004083</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004084">
@@ -100,7 +110,7 @@
         <oc:id>TESTSPA0000004084</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004136">
@@ -108,7 +118,7 @@
         <oc:id>TESTSPA0000004136</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004085">
@@ -116,7 +126,7 @@
         <oc:id>TESTSPA0000004085</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004123">
@@ -124,7 +134,7 @@
         <oc:id>TESTSPA0000004123</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003711">
@@ -132,7 +142,7 @@
         <oc:id>TESTSPA0000003711</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003982">
@@ -140,7 +150,7 @@
         <oc:id>TESTSPA0000003982</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004007">
@@ -148,7 +158,7 @@
         <oc:id>TESTSPA0000004007</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004008">
@@ -156,7 +166,7 @@
         <oc:id>TESTSPA0000004008</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003985">
@@ -164,7 +174,7 @@
         <oc:id>TESTSPA0000003985</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004009">
@@ -172,7 +182,7 @@
         <oc:id>TESTSPA0000004009</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004010">
@@ -180,7 +190,7 @@
         <oc:id>TESTSPA0000004010</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003983">
@@ -188,7 +198,7 @@
         <oc:id>TESTSPA0000003983</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003986">
@@ -196,7 +206,7 @@
         <oc:id>TESTSPA0000003986</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004086">
@@ -204,7 +214,7 @@
         <oc:id>TESTSPA0000004086</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004087">
@@ -212,7 +222,7 @@
         <oc:id>TESTSPA0000004087</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003991">
@@ -220,7 +230,7 @@
         <oc:id>TESTSPA0000003991</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006673">
@@ -228,7 +238,7 @@
         <oc:id>TESTSPA0000006673</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006702">
@@ -236,7 +246,7 @@
         <oc:id>TESTSPA0000006702</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006757">
@@ -244,7 +254,7 @@
         <oc:id>TESTSPA0000006757</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003992">
@@ -252,7 +262,7 @@
         <oc:id>TESTSPA0000003992</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006674">
@@ -260,7 +270,7 @@
         <oc:id>TESTSPA0000006674</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006703">
@@ -268,7 +278,7 @@
         <oc:id>TESTSPA0000006703</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006758">
@@ -276,7 +286,7 @@
         <oc:id>TESTSPA0000006758</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006759">
@@ -284,7 +294,7 @@
         <oc:id>TESTSPA0000006759</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006760">
@@ -292,7 +302,7 @@
         <oc:id>TESTSPA0000006760</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006761">
@@ -300,7 +310,7 @@
         <oc:id>TESTSPA0000006761</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006762">
@@ -308,7 +318,7 @@
         <oc:id>TESTSPA0000006762</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003658">
@@ -316,7 +326,7 @@
         <oc:id>TESTSPA0000003658</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003860">
@@ -324,7 +334,7 @@
         <oc:id>TESTSPA0000003860</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006345">
@@ -332,7 +342,7 @@
         <oc:id>TESTSPA0000006345</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000005724">
@@ -340,7 +350,7 @@
         <oc:id>TESTSPA0000005724</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006704">
@@ -348,7 +358,7 @@
         <oc:id>TESTSPA0000006704</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003712">
@@ -356,7 +366,7 @@
         <oc:id>TESTSPA0000003712</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006346">
@@ -364,7 +374,7 @@
         <oc:id>TESTSPA0000006346</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003659">
@@ -372,7 +382,7 @@
         <oc:id>TESTSPA0000003659</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004088">
@@ -380,7 +390,7 @@
         <oc:id>TESTSPA0000004088</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004124">
@@ -388,7 +398,7 @@
         <oc:id>TESTSPA0000004124</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006621">
@@ -396,7 +406,7 @@
         <oc:id>TESTSPA0000006621</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003660">
@@ -404,7 +414,7 @@
         <oc:id>TESTSPA0000003660</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004089">
@@ -412,7 +422,7 @@
         <oc:id>TESTSPA0000004089</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003727">
@@ -420,7 +430,7 @@
         <oc:id>TESTSPA0000003727</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006675">
@@ -428,7 +438,7 @@
         <oc:id>TESTSPA0000006675</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003911">
@@ -436,7 +446,7 @@
         <oc:id>TESTSPA0000003911</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003912">
@@ -444,7 +454,7 @@
         <oc:id>TESTSPA0000003912</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006347">
@@ -452,7 +462,7 @@
         <oc:id>TESTSPA0000006347</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006623">
@@ -460,7 +470,7 @@
         <oc:id>TESTSPA0000006623</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006676">
@@ -468,7 +478,7 @@
         <oc:id>TESTSPA0000006676</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000005725">
@@ -476,7 +486,7 @@
         <oc:id>TESTSPA0000005725</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004424">
@@ -484,7 +494,7 @@
         <oc:id>TESTSPA0000004424</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003661">
@@ -492,7 +502,7 @@
         <oc:id>TESTSPA0000003661</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006622">
@@ -500,7 +510,7 @@
         <oc:id>TESTSPA0000006622</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004090">
@@ -508,7 +518,7 @@
         <oc:id>TESTSPA0000004090</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003662">
@@ -516,7 +526,7 @@
         <oc:id>TESTSPA0000003662</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000005726">
@@ -524,7 +534,7 @@
         <oc:id>TESTSPA0000005726</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006457">
@@ -532,7 +542,7 @@
         <oc:id>TESTSPA0000006457</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003886">
@@ -540,7 +550,7 @@
         <oc:id>TESTSPA0000003886</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006705">
@@ -548,7 +558,7 @@
         <oc:id>TESTSPA0000006705</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003718">
@@ -556,7 +566,7 @@
         <oc:id>TESTSPA0000003718</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006677">
@@ -564,7 +574,7 @@
         <oc:id>TESTSPA0000006677</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006763">
@@ -572,7 +582,7 @@
         <oc:id>TESTSPA0000006763</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003663">
@@ -580,7 +590,7 @@
         <oc:id>TESTSPA0000003663</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006764">
@@ -588,7 +598,7 @@
         <oc:id>TESTSPA0000006764</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006765">
@@ -596,7 +606,7 @@
         <oc:id>TESTSPA0000006765</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006766">
@@ -604,7 +614,7 @@
         <oc:id>TESTSPA0000006766</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006706">
@@ -612,7 +622,7 @@
         <oc:id>TESTSPA0000006706</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006707">
@@ -620,7 +630,7 @@
         <oc:id>TESTSPA0000006707</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006767">
@@ -628,7 +638,7 @@
         <oc:id>TESTSPA0000006767</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006768">
@@ -636,7 +646,7 @@
         <oc:id>TESTSPA0000006768</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006678">
@@ -644,7 +654,7 @@
         <oc:id>TESTSPA0000006678</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006769">
@@ -652,7 +662,7 @@
         <oc:id>TESTSPA0000006769</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006679">
@@ -660,7 +670,7 @@
         <oc:id>TESTSPA0000006679</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006680">
@@ -668,7 +678,7 @@
         <oc:id>TESTSPA0000006680</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006770">
@@ -676,7 +686,7 @@
         <oc:id>TESTSPA0000006770</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006681">
@@ -684,7 +694,7 @@
         <oc:id>TESTSPA0000006681</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006771">
@@ -692,7 +702,7 @@
         <oc:id>TESTSPA0000006771</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006772">
@@ -700,7 +710,7 @@
         <oc:id>TESTSPA0000006772</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006682">
@@ -708,7 +718,7 @@
         <oc:id>TESTSPA0000006682</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006683">
@@ -716,7 +726,7 @@
         <oc:id>TESTSPA0000006683</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006708">
@@ -724,7 +734,7 @@
         <oc:id>TESTSPA0000006708</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006684">
@@ -732,7 +742,7 @@
         <oc:id>TESTSPA0000006684</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006773">
@@ -740,7 +750,7 @@
         <oc:id>TESTSPA0000006773</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006774">
@@ -748,7 +758,7 @@
         <oc:id>TESTSPA0000006774</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006775">
@@ -756,7 +766,7 @@
         <oc:id>TESTSPA0000006775</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006776">
@@ -764,7 +774,7 @@
         <oc:id>TESTSPA0000006776</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006097">
@@ -772,7 +782,7 @@
         <oc:id>TESTSPA0000006097</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006685">
@@ -780,7 +790,7 @@
         <oc:id>TESTSPA0000006685</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004091">
@@ -788,7 +798,7 @@
         <oc:id>TESTSPA0000004091</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003499">
@@ -796,7 +806,7 @@
         <oc:id>TESTSPA0000003499</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003664">
@@ -804,7 +814,7 @@
         <oc:id>TESTSPA0000003664</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003665">
@@ -812,7 +822,7 @@
         <oc:id>TESTSPA0000003665</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003666">
@@ -820,7 +830,7 @@
         <oc:id>TESTSPA0000003666</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006458">
@@ -828,7 +838,7 @@
         <oc:id>TESTSPA0000006458</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006348">
@@ -836,7 +846,7 @@
         <oc:id>TESTSPA0000006348</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004284">
@@ -844,7 +854,7 @@
         <oc:id>TESTSPA0000004284</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006686">
@@ -852,7 +862,7 @@
         <oc:id>TESTSPA0000006686</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006088">
@@ -860,7 +870,7 @@
         <oc:id>TESTSPA0000006088</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004678">
@@ -868,7 +878,7 @@
         <oc:id>TESTSPA0000004678</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006777">
@@ -876,7 +886,7 @@
         <oc:id>TESTSPA0000006777</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004092">
@@ -884,7 +894,7 @@
         <oc:id>TESTSPA0000004092</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006349">
@@ -892,7 +902,7 @@
         <oc:id>TESTSPA0000006349</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004333">
@@ -900,7 +910,7 @@
         <oc:id>TESTSPA0000004333</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004762">
@@ -908,7 +918,7 @@
         <oc:id>TESTSPA0000004762</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004679">
@@ -916,7 +926,7 @@
         <oc:id>TESTSPA0000004679</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004310">
@@ -924,7 +934,7 @@
         <oc:id>TESTSPA0000004310</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004858">
@@ -932,7 +942,7 @@
         <oc:id>TESTSPA0000004858</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004311">
@@ -940,7 +950,7 @@
         <oc:id>TESTSPA0000004311</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004680">
@@ -948,7 +958,7 @@
         <oc:id>TESTSPA0000004680</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004859">
@@ -956,7 +966,7 @@
         <oc:id>TESTSPA0000004859</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004093">
@@ -964,7 +974,7 @@
         <oc:id>TESTSPA0000004093</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006448">
@@ -972,7 +982,7 @@
         <oc:id>TESTSPA0000006448</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004094">
@@ -980,7 +990,7 @@
         <oc:id>TESTSPA0000004094</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004095">
@@ -988,7 +998,7 @@
         <oc:id>TESTSPA0000004095</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006778">
@@ -996,7 +1006,7 @@
         <oc:id>TESTSPA0000006778</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006350">
@@ -1004,7 +1014,7 @@
         <oc:id>TESTSPA0000006350</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006687">
@@ -1012,7 +1022,7 @@
         <oc:id>TESTSPA0000006687</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004681">
@@ -1020,7 +1030,7 @@
         <oc:id>TESTSPA0000004681</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004763">
@@ -1028,7 +1038,7 @@
         <oc:id>TESTSPA0000004763</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004682">
@@ -1036,7 +1046,7 @@
         <oc:id>TESTSPA0000004682</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004096">
@@ -1044,7 +1054,7 @@
         <oc:id>TESTSPA0000004096</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003667">
@@ -1052,7 +1062,7 @@
         <oc:id>TESTSPA0000003667</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006351">
@@ -1060,7 +1070,7 @@
         <oc:id>TESTSPA0000006351</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000005822">
@@ -1068,7 +1078,7 @@
         <oc:id>TESTSPA0000005822</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006688">
@@ -1076,7 +1086,7 @@
         <oc:id>TESTSPA0000006688</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006352">
@@ -1084,7 +1094,7 @@
         <oc:id>TESTSPA0000006352</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006353">
@@ -1092,7 +1102,7 @@
         <oc:id>TESTSPA0000006353</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006354">
@@ -1100,7 +1110,7 @@
         <oc:id>TESTSPA0000006354</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006779">
@@ -1108,7 +1118,7 @@
         <oc:id>TESTSPA0000006779</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006793">
@@ -1116,7 +1126,7 @@
         <oc:id>TESTSPA0000006793</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006605">
@@ -1124,7 +1134,7 @@
         <oc:id>TESTSPA0000006605</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000005727">
@@ -1132,7 +1142,7 @@
         <oc:id>TESTSPA0000005727</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003502">
@@ -1140,7 +1150,7 @@
         <oc:id>TESTSPA0000003502</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006689">
@@ -1148,7 +1158,7 @@
         <oc:id>TESTSPA0000006689</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004334">
@@ -1156,7 +1166,7 @@
         <oc:id>TESTSPA0000004334</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004860">
@@ -1164,79 +1174,7 @@
         <oc:id>TESTSPA0000004860</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004125">
-        <oc:name>Bone Ref# 2511</oc:name>
-        <oc:id>TESTSPA0000004125</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004097">
-        <oc:name>Bone Ref# 2512</oc:name>
-        <oc:id>TESTSPA0000004097</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006355">
-        <oc:name>Bone Ref# 2513</oc:name>
-        <oc:id>TESTSPA0000006355</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000003668">
-        <oc:name>Bone Ref# 2514</oc:name>
-        <oc:id>TESTSPA0000003668</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004137">
-        <oc:name>Bone Ref# 2515</oc:name>
-        <oc:id>TESTSPA0000004137</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004285">
-        <oc:name>Bone Ref# 2516</oc:name>
-        <oc:id>TESTSPA0000004285</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006356">
-        <oc:name>Bone Ref# 2517</oc:name>
-        <oc:id>TESTSPA0000006356</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004286">
-        <oc:name>Bone Ref# 2518</oc:name>
-        <oc:id>TESTSPA0000004286</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004480">
-        <oc:name>Bone Ref# 2519</oc:name>
-        <oc:id>TESTSPA0000004480</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006371">
@@ -1244,23 +1182,7 @@
         <oc:id>TESTSPA0000006371</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006357">
-        <oc:name>Bone Ref# 2520</oc:name>
-        <oc:id>TESTSPA0000006357</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
-        </oc:item_class>
-      </oc:child>
-      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006372">
-        <oc:name>Bone Ref# 2522</oc:name>
-        <oc:id>TESTSPA0000006372</oc:id>
-        <oc:item_class>
-          <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004861">
@@ -1268,7 +1190,7 @@
         <oc:id>TESTSPA0000004861</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006780">
@@ -1276,7 +1198,7 @@
         <oc:id>TESTSPA0000006780</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006449">
@@ -1284,7 +1206,7 @@
         <oc:id>TESTSPA0000006449</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006552">
@@ -1292,7 +1214,7 @@
         <oc:id>TESTSPA0000006552</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004862">
@@ -1300,7 +1222,7 @@
         <oc:id>TESTSPA0000004862</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006562">
@@ -1308,7 +1230,7 @@
         <oc:id>TESTSPA0000006562</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006553">
@@ -1316,7 +1238,7 @@
         <oc:id>TESTSPA0000006553</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000004863">
@@ -1324,7 +1246,7 @@
         <oc:id>TESTSPA0000004863</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006563">
@@ -1332,7 +1254,7 @@
         <oc:id>TESTSPA0000006563</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000003547">
@@ -1340,7 +1262,7 @@
         <oc:id>TESTSPA0000003547</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
       <oc:child href="http://opencontext.org/subjects/TESTSPA0000006564">
@@ -1348,25 +1270,104 @@
         <oc:id>TESTSPA0000006564</oc:id>
         <oc:item_class>
           <oc:name>Animal Bone</oc:name>
-          <oc:iconURI>animal_bone_30x30.jpg</oc:iconURI>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004125">
+        <oc:name>Bone Ref# 2511</oc:name>
+        <oc:id>TESTSPA0000004125</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004097">
+        <oc:name>Bone Ref# 2512</oc:name>
+        <oc:id>TESTSPA0000004097</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006355">
+        <oc:name>Bone Ref# 2513</oc:name>
+        <oc:id>TESTSPA0000006355</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000003668">
+        <oc:name>Bone Ref# 2514</oc:name>
+        <oc:id>TESTSPA0000003668</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004137">
+        <oc:name>Bone Ref# 2515</oc:name>
+        <oc:id>TESTSPA0000004137</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004285">
+        <oc:name>Bone Ref# 2516</oc:name>
+        <oc:id>TESTSPA0000004285</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006356">
+        <oc:name>Bone Ref# 2517</oc:name>
+        <oc:id>TESTSPA0000006356</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004286">
+        <oc:name>Bone Ref# 2518</oc:name>
+        <oc:id>TESTSPA0000004286</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000004480">
+        <oc:name>Bone Ref# 2519</oc:name>
+        <oc:id>TESTSPA0000004480</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006357">
+        <oc:name>Bone Ref# 2520</oc:name>
+        <oc:id>TESTSPA0000006357</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+      </oc:child>
+      <oc:child href="http://opencontext.org/subjects/TESTSPA0000006372">
+        <oc:name>Bone Ref# 2522</oc:name>
+        <oc:id>TESTSPA0000006372</oc:id>
+        <oc:item_class>
+          <oc:name>Animal Bone</oc:name>
+          <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/animal_bone_30x30.jpg</oc:iconURI>
         </oc:item_class>
       </oc:child>
     </oc:tree>
   </oc:children>
   <oc:metadata>
     <dc:title>Pınarbaşı 1994: Animal Bones: Context BAK (Excav. Unit)</dc:title>
-    <dc:date>2006-03-25</dc:date>
-    <dc:coverage>Near East</dc:coverage>
-    <dc:creator>Denise Carruthers</dc:creator>
-    <dc:format>Text/HTML</dc:format>
-    <dc:language>eng</dc:language>
     <dc:publisher>Open Context</dc:publisher>
-    <dc:rights>Creative Commons Attribution 2.5</dc:rights>
-    <dc:subject>archaeology</dc:subject>
-    <dc:subject>Epi-Paleolithic</dc:subject>
-    <dc:subject>Neolithic</dc:subject>
-    <dc:subject>Near East</dc:subject>
-    <dc:subject>Anatolia</dc:subject>
+    <dc:date>2013-03-05</dc:date>
+    <dc:subject>archaeology, Epi-Paleolithic, Neolithic, Near East, Anatolia</dc:subject>
     <dc:subject>Turkey</dc:subject>
     <dc:subject>zooarchaeology</dc:subject>
     <dc:subject>Pinarbasi</dc:subject>
@@ -1374,50 +1375,43 @@
     <dc:subject>agriculture</dc:subject>
     <dc:subject>foraging</dc:subject>
     <dc:subject>hunting</dc:subject>
-    <dc:contributor>Denise Carruthers</dc:contributor>
+    <dc:contributor href="http://opencontext.org/persons/TESTPER0000003264">Denise Carruthers</dc:contributor>
+    <dc:creator href="http://opencontext.org/persons/TESTPER0000003264">Denise Carruthers</dc:creator>
     <dc:identifier>http://opencontext.org/subjects/TESTSPA0000003500</dc:identifier>
-    <oc:project_name>Pınarbaşı 1994: Animal Bones</oc:project_name>
-    <oc:primary_xsl>default/default_spatial.xsl</oc:primary_xsl>
-    <oc:pub_date>2006-03-25T00:00:00-07:00</oc:pub_date>
-    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=P%26%23305%3Bnarba%26%23351%3B%26%23305%3B%201994%3A%20Animal%20Bones%3A%20Context%20BAK%20%28Excav.%20Unit%29&amp;rft.date=2006-03-25&amp;rft.creator=Denise%20Carruthers&amp;rft.contributor=Denise%20Carruthers&amp;rft.subject=archaeology&amp;rft.subject=Epi-Paleolithic&amp;rft.subject=Neolithic&amp;rft.subject=Near%20East&amp;rft.subject=Anatolia&amp;rft.subject=Turkey&amp;rft.subject=zooarchaeology&amp;rft.subject=Pinarbasi&amp;rft.subject=9th%20millennium&amp;rft.subject=agriculture&amp;rft.subject=foraging&amp;rft.subject=hunting&amp;rft.format=Text%2FHTML&amp;rft.coverage=Near%20East&amp;rft.language=eng&amp;rft.publisher=&amp;rft.source=Open%20Context&amp;rft.rights=Creative%20Commons%20Attribution%202.5&amp;rft_id=http%3A%2F%2Fwww.opencontext.org%2Fsubjects%2FTESTSPA0000003500</oc:coins>
-    <oc:no_props>This study includes zooarchaeological information only. Other content, including details of Pınarbaşı contexts, is not yet available. </oc:no_props>
-    <oc:copyright_lic>
-      <oc:lic_name>Creative Commons Attribution</oc:lic_name>
-      <oc:lic_vers>3.0</oc:lic_vers>
-      <oc:lic_URI>http://creativecommons.org/licenses/by/3.0/</oc:lic_URI>
-      <oc:lic_icon_URI>http://i.creativecommons.org/l/by/3.0/88x31.png</oc:lic_icon_URI>
-    </oc:copyright_lic>
+    <oc:project_name href="http://opencontext.org/projects/TESTPRJ0000000004">Pınarbaşı 1994: Animal Bones</oc:project_name>
+    <oc:pub_date>2013-03-05T00:00:00-07:00</oc:pub_date>
+    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=P%C4%B1narba%C5%9F%C4%B1+1994%3A+Animal+Bones%3A+Context+BAK+%28Excav.+Unit%29&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=archaeology%2C+Epi-Paleolithic%2C+Neolithic%2C+Near+East%2C+Anatolia&amp;rft.subject=Turkey&amp;rft.subject=zooarchaeology&amp;rft.subject=Pinarbasi&amp;rft.subject=9th+millennium&amp;rft.subject=agriculture&amp;rft.subject=foraging&amp;rft.subject=hunting&amp;rft.contributor=Denise+Carruthers&amp;rft.creator=Denise+Carruthers&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fsubjects%2FTESTSPA0000003500</oc:coins>
     <oc:geo_reference>
-      <oc:geo_lat>37.455</oc:geo_lat>
-      <oc:geo_long>33.0475</oc:geo_long>
-      <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-        <oc:source_name>Pinarbasi</oc:source_name>
-        <oc:source_id>ROOTPRJ0000000006</oc:source_id>
+      <oc:geo_lat>37.49432</oc:geo_lat>
+      <oc:geo_long>33.018551</oc:geo_long>
+      <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/TESTSPA0000003434">
+        <oc:source_name>Site B</oc:source_name>
+        <oc:source_id>TESTSPA0000003434</oc:source_id>
       </oc:metasource>
     </oc:geo_reference>
   </oc:metadata>
   <oc:social_usage>
-    <oc:last_updated>2008-11-01T23:37:51Z</oc:last_updated>
+    <oc:last_updated>2013-05-20T04:21:33-07:00</oc:last_updated>
     <oc:item_views>
-      <oc:count>12</oc:count>
-      <oc:view_time>August 5, 2008, 5:19PM</oc:view_time>
+      <oc:count>1</oc:count>
+      <oc:view_time>2013/05/20 04:21:33</oc:view_time>
     </oc:item_views>
     <oc:user_tags>
       <oc:tag type="chronological" status="public">
-        <oc:name>(8,500 BCE - 7,000 BCE)</oc:name>
+        <oc:name>(6,700 BCE - 6,000 BCE)</oc:name>
         <oc:chrono isDuration="true">
-          <oc:time_start>-8500</oc:time_start>
-          <oc:time_finish>-7000</oc:time_finish>
-          <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/ROOTPRJ0000000006">
-            <oc:source_name>Pinarbasi</oc:source_name>
-            <oc:source_id>ROOTPRJ0000000006</oc:source_id>
+          <oc:time_start>-6700</oc:time_start>
+          <oc:time_finish>-6000</oc:time_finish>
+          <oc:metasource ref_type="contained" href="http://opencontext.org/subjects/TESTSPA0000003434">
+            <oc:source_name>Site B</oc:source_name>
+            <oc:source_id>TESTSPA0000003434</oc:source_id>
           </oc:metasource>
         </oc:chrono>
         <oc:tag_creator id="oc">
           <oc:creator_name>Open Context Editors</oc:creator_name>
           <oc:set_label>Default set</oc:set_label>
           <oc:set_id>Default set</oc:set_id>
-          <oc:set_date>2008-08-11T21:45:49Z</oc:set_date>
+          <oc:set_date>2013-03-05T17:49:52-07:00</oc:set_date>
         </oc:tag_creator>
       </oc:tag>
     </oc:user_tags>
