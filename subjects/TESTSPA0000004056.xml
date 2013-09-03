@@ -27,7 +27,7 @@
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Equidae</oc:label>
               </oc:targetLink>
-              <oc:targetLink localType="property" localID="TESTPRO0000020446" localURI="http://opencontext.org/properties/TESTPRO0000020446" href="http://eol.org/pages/11018612">
+              <oc:targetLink localType="property" localID="TESTPRO0000020446" localURI="http://opencontext.org/properties/TESTPRO0000020446" href="http://eol.org/pages/15580">
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Equus</oc:label>
               </oc:targetLink>

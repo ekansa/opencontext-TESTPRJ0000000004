@@ -27,7 +27,7 @@
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Equidae</oc:label>
               </oc:targetLink>
-              <oc:targetLink localType="property" localID="TESTPRO0000020446" localURI="http://opencontext.org/properties/TESTPRO0000020446" href="http://eol.org/pages/11018612">
+              <oc:targetLink localType="property" localID="TESTPRO0000020446" localURI="http://opencontext.org/properties/TESTPRO0000020446" href="http://eol.org/pages/15580">
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Equus</oc:label>
               </oc:targetLink>
@@ -75,7 +75,7 @@
             <oc:relationLink localType="variable" localID="TESTVAR0000000333" href="http://purl.org/NET/biol/ns#term_hasTaxonomy">
               <oc:vocabulary href="http://purl.org/NET/biol/ns#">Biological Taxonomy Vocabulary</oc:vocabulary>
               <oc:label>Has Biological Taxonomy</oc:label>
-              <oc:targetLink localType="property" localID="TESTPRO0000020471" localURI="http://opencontext.org/properties/TESTPRO0000020471" href="http://eol.org/pages/11018612">
+              <oc:targetLink localType="property" localID="TESTPRO0000020471" localURI="http://opencontext.org/properties/TESTPRO0000020471" href="http://eol.org/pages/15580">
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Equus</oc:label>
               </oc:targetLink>
