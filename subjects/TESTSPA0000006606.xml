@@ -27,7 +27,7 @@
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Sus</oc:label>
               </oc:targetLink>
-              <oc:targetLink localType="property" localID="TESTPRO0000024138" localURI="http://opencontext.org/properties/TESTPRO0000024138" href="http://eol.org/pages/4445655">
+              <oc:targetLink localType="property" localID="TESTPRO0000024138" localURI="http://opencontext.org/properties/TESTPRO0000024138" href="http://eol.org/pages/4445650">
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Sus scrofa domesticus</oc:label>
               </oc:targetLink>
@@ -89,7 +89,7 @@
             <oc:relationLink localType="variable" localID="TESTVAR0000000333" href="http://purl.org/NET/biol/ns#term_hasTaxonomy">
               <oc:vocabulary href="http://purl.org/NET/biol/ns#">Biological Taxonomy Vocabulary</oc:vocabulary>
               <oc:label>Has Biological Taxonomy</oc:label>
-              <oc:targetLink localType="property" localID="TESTPRO0000024139" localURI="http://opencontext.org/properties/TESTPRO0000024139" href="http://eol.org/pages/4445655">
+              <oc:targetLink localType="property" localID="TESTPRO0000024139" localURI="http://opencontext.org/properties/TESTPRO0000024139" href="http://eol.org/pages/4445650">
                 <oc:vocabulary href="http://eol.org/">Encyclopedia of Life</oc:vocabulary>
                 <oc:label>Sus scrofa domesticus</oc:label>
               </oc:targetLink>
